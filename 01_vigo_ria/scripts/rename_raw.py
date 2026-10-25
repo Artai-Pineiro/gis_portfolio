@@ -1,7 +1,8 @@
 """Renomea o recorte de EMODnet seguindo a convención zona_fonte_SRC.
 
 Uso (desde a carpeta 01_vigo_ria):
-    python3 scripts/rename_raw.py"""
+    python3 scripts/rename_raw.py
+"""
 
 from pathlib import Path
 
