@@ -6,4 +6,4 @@ Geographer and former hydrographic surveyor (16 months, including offshore wind-
 
 | # | Project | Skills | Status |
 | --- | --- | --- | --- |
-| 1 | [Ría de Vigo Bathymetry](01_vigo_ria/) | QGIS, GDAL, bathymetry, vertical datums cartography | Done |
+| 1 | [Ría de Vigo Bathymetry](01_vigo_ria/) | QGIS, GDAL, bathymetry, vertical datums, cartography | Done |
