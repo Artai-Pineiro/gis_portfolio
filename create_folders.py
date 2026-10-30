@@ -1,11 +1,12 @@
 
 from pathlib import Path
-print(Path.home())
-base = Path(__file__).parent / "01_vigo_ria"
+
+project = "02_bernal_heights_contours"
+base = Path(__file__).parent / project
 print(base)
 
 # Creamos un novo directorio con mkdir que está na ruta que garda "base"
-# Neste caso será un directorio chamado "01_vigo_ria"
+# Neste caso, a carpeta que garda a variable project
 base.mkdir(parents=True, exist_ok=True)
 subfolders = ["data/raw", "data/processed", "maps", "project", "scripts"]
 print(subfolders)
