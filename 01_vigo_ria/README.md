@@ -35,7 +35,7 @@ Processed in QGIS 3.44 with its GDAL tools. Exact parameters come from Processin
     - `-s 1` scale is valid only because the grid is already in metres; in EPSG:4326 it would need `-s 111120`.
 3. **Isobaths**: `gdal_contour -i 10`, then *Extract by expression* `"ELEV" < 0`
     - 10 m interval: 100 m cells averaged from several surveys don't support finer contours, and it gives about eight readable isobaths.
-    - The DTM includes land, so contours above sea level (1,307 lines up to +680 m) were removed; 40 isobaths remain.
+    - The DTM includes land: of 1,307 contours (from -80 to +680 m), the 1,267 at or above sea level were removed and 40 isobaths remain.
     - Smoothing (3 iterations, offset 0.25) removes the pixel stair-steps. It is cosmetic: the depth grid is unchanged.
     - Labels show depth as a positive value: `abs(to_int("ELEV")) || ' m'`.
 4. **Layout**
