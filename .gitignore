@@ -6,3 +6,7 @@ PLAN.md
 notes/
 python_practice/
 02_bernal_heights_contours/data/raw/
+*.gpkg-shm
+*.gpkg-wal
+*_backup_*.qgz
+*.pdf.aux.xml
