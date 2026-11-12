@@ -8,7 +8,7 @@ print(base)
 # Creamos un novo directorio con mkdir que está na ruta que garda "base"
 # Neste caso, a carpeta que garda a variable project
 base.mkdir(parents=True, exist_ok=True)
-subfolders = ["data/raw", "data/processed", "maps", "project", "scripts"]
+subfolders = ["data/raw", "deliverables", "data/processed", "maps", "project", "scripts"]
 print(subfolders)
 
 # Unha vez creados os nomes das carpetas, creámolas
