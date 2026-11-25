@@ -1,0 +1,19 @@
+name: gis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - gdal
+  - libgdal-jp2openjpeg
+  - libgdal-arrow-parquet
+  - libgdal-netcdf
+  - libgdal-hdf5
+  - libgdal-pdf
+  - geopandas
+  - rasterio
+  - rioxarray
+  - python-duckdb
+  - leafmap
+  - matplotlib
+  - pillow
+  - ipykernel
